@@ -27,10 +27,8 @@ body{
 </tr>
 
 <tr>
-<td width="20%" align="top">
-	</td>
 	
-	<td width="80%"  valign="top">
+	<td width="100%"  valign="top">
 		<jsp:include page="<%=contentPage%>"/>
 	</td>
 </tr>

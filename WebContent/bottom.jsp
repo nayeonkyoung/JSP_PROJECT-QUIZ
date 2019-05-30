@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <style>
 p{
+font-size:15px;
 color:white;
 }
 </style>

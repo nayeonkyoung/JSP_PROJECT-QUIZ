@@ -5,6 +5,49 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+<style>
+body{
+font-family:'Noto Sans KR Regular Regular';
+font-size:20px;
+text-align:center;
+}
+b{
+font-size: 30px;
+}
+input[type=text] {
+  border: 2px solid white;
+  border-radius: 4px;
+  height:20px;
+}
+.p1{
+text-decoration:none;
+color:#8d3049;
+}
+
+#quizScore{
+  margin:3rem auto -2rem;
+  font-size:4rem;
+  letter-spacing:-2px;
+  color:#6B566B;
+  text-shadow:0px 0px 0 #AFC7B9,
+    1px 1px 0 #AFC7B9,
+    -2px -2px 0 #AFC7B9,
+    -3px -3px 0 #AFC7B9,
+    -4px -4px 0 #AFC7B9,
+    -5px -5px 0 #FCA89D,
+    -6px -6px 0 #FCA89D,
+    -7px -7px 0 #FCA89D,
+    -8px -8px 0 #FAC7B4,
+    -9px -9px 0 #FAC7B4,
+    -10px -10px 0 #FAC7B4,
+    -11px -11px 0 #FAC7B4,
+    -12px -12px 0 #FFE1C9,
+    -13px -13px 0 #FFE1C9,
+    -14px -14px 0 #FFE1C9, 
+     10px -10px 0 hsla(0,0%,0%,.08),
+      0 8px 8px hsla(0,0%,0%,.15);   
+}
+</style>
 <script language="javascript">
 var delay=20; //시간설정
 var correctAnswers=new Array("a","b","b","b","a");  //정답
@@ -59,11 +102,11 @@ window.onload=show_question;
 </head>
 
 <body>
+<br><br>
 
 제한시간 : <B><span id="timeLeft"></span></B> 초<br>
 <br>
 <div id="answerBoard"> </div>
-<br>
 
 <div id="question1" style="display:none">
 	<b>1. 오이는 채소가 아니라 과일이다?</b><br>
