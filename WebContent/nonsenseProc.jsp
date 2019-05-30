@@ -6,7 +6,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 <script language="javascript">
-var delay=10; //시간설정
+var delay=20; //시간설정
 var correctAnswers=new Array("눈감을새","초비상","고물장수","새우","화장실");  //정답
 
 var q_num=1;
