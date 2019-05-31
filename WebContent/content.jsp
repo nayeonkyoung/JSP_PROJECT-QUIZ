@@ -58,13 +58,21 @@ input[type=text] {
   border-radius: 4px;
   height:20px;
 }
+#input{
+color:#d02842;
+}
+#in{
+font-size:25px;
+color:#302d94;
+}
 </style>
 <script>
 //var name = document.getElementById("name");
 function name_view(){
 	  var name1 = document.getElementById('n1');
 	alert("안녕하세요 , "+"나연경"+"님");
-	window.onload();
+	var f2 = document.getElementById("f2"); 
+	f2.style.diosplay="inline";
 }
 </script>
 <meta charset="UTF-8">
@@ -75,6 +83,11 @@ function name_view(){
     <p id="inpu"> 자신의 이름을 입력하세요 </p>
     <input type="text" class="name" id ="n1">
     <input type="button" onclick="name_view()" class="btn" value="확인">
+    </form>
+    <form id="f2" style="display:none">
+    <p id="in">안녕하세요</p>
+    <p id="input">나연경님</p>
+    <p id="in">위의 메뉴를 눌러 퀴즈를 실행시켜 주세요!</p>
     </form>
 </body>
 </html>
