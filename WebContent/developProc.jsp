@@ -22,6 +22,8 @@ input[type=text] {
 .p1{
 text-decoration:none;
 color:#8d3049;
+background-color:white;
+padding:8px;
 }
 
 #quizScore{
@@ -49,7 +51,7 @@ color:#8d3049;
 }
 </style>
 <script language="javascript">
-var delay=20; //시간설정
+var delay=15; //시간설정
 var correctAnswers=new Array("b","a","c","c","a");  //정답
 
 var q_num=1;
@@ -106,9 +108,9 @@ window.onload=show_question;
 제한시간 : <B><span id="timeLeft"></span></B> 초<br>
 <br>
 <div id="answerBoard"> </div>
-
+<br>
 <div id="question1" style="display:none">
-	<b>1. 자바에서 메소드 오버로딩에 대한 설명으로 틀린 것은?</b><br>
+	<b>1. 자바에서 메소드 오버로딩에 대한 설명으로 틀린 것은?</b><br><br>
 	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① 동일 클래스 내에서 발생한다.	</a><br><br>
 	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② 매개변수의 형이나 개수가 동일해야 한다.</a><br><br>
 	<a href="javascript:void(0)" onclick="check_answer('c')" class="p1"> ③ 다형성을 지원하기 위한 장치이다.</a><br><br>
@@ -116,7 +118,7 @@ window.onload=show_question;
 </div>
 
 <div id="question2" style="display:none">
-<b>2.다음 예제 프로그램의 결과는 무엇인가?</b><br><img src="img/d2.png" id="logo" width="800px" height="350px"> <br>
+<b>2.다음 예제 프로그램의 결과는 무엇인가?</b><br><img src="img/d2.png" id="logo" width="800px" height="350px"> <br><br>
 <a href="javascript:void(0)" onclick="check_answer('a')" class="p1">① Hello</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('b')" class="p1">② Hello Java!</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('c')" class="p1">③ 컴파일 에러</a><br><br>
@@ -125,14 +127,14 @@ window.onload=show_question;
 
 <div id="question3" style="display:none">
 <b>3. Java.lang 패키지는 자바 프로그램에서 ( )문을 사용하여 포함시키지 않아도 자동적으로 포함되는 패키지이다. <br>이 패키지는 자바 프로그램의 기본이 되는 클래스들과 인터페이스들을 제공하고 있어 자바 프로그램에서 많이 사용한다.</b><br>
-<a href="javascript:void(0)" onclick="check_answer('a')" class="p1">① extends</a><br><br>
+<br><a href="javascript:void(0)" onclick="check_answer('a')" class="p1">① extends</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('b')" class="p1">② package</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('c')" class="p1">③ import</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('d')" class="p1">④ class</a><br><br>
 </div>
 
 <div id="question4" style="display:none">
-<b>4. 다음은 자바의 예외 처리에 대한 설명이다. 틀린 것은?</b><br>
+<b>4. 다음은 자바의 예외 처리에 대한 설명이다. 틀린 것은?</b><br><br>
 <a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① try~catch~finally 문에 여러 개의 catch문이 올 수 있다.</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② finally문은 생략 가능하다.</a><br><br>
 <a href="javascript:void(0)" onclick="check_answer('c')" class="p1"> ③ 모든 메소드 마다 예외의 유형을 정의하여야 한다.</a><br><br>
@@ -140,15 +142,13 @@ window.onload=show_question;
 </div>
 
 
-
-
-
-<div id="question5" style="display:none">
-<b>5.다음 예제 프로그램의 결과는 무엇인가?</b><br><img src="img/d5.png" id="logo" width="800px" height="400px"><br>
-<a href="javascript:void(0)" onclick="check_answer('a')" class="p1">① 컴파일 에러난다.</a><br>
-<a href="javascript:void(0)" onclick="check_answer('b')" class="p1">② exception 발생</a><br>
-<a href="javascript:void(0)" onclick="check_answer('c')" class="p1">③ 10 - 20 - 30 으로 출력된다.</a><br>
-<a href="javascript:void(0)" onclick="check_answer('d')" class="p1">④ -40 으로 출력된다.</a><br>
+<div id="question5" style="display:none; margin:0 auto; ">
+<b>5.다음 예제 프로그램의 결과는 무엇인가?</b><br><img src="img/d5.png" id="logo" width="800px" height="400px"><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="javascript:void(0)" onclick="check_answer('a')" class="p1" style="margin:30px;">① 컴파일 에러난다.</a>
+<a href="javascript:void(0)" onclick="check_answer('b')" class="p1" style="margin:30px;">② exception 발생</a>
+<a href="javascript:void(0)" onclick="check_answer('c')" class="p1" style="margin:30px;">③ 10 - 20 - 30 으로 출력된다.</a>
+<a href="javascript:void(0)" onclick="check_answer('d')" class="p1" style="margin:30px;">④ -40 으로 출력된다.</a>
 </div>
 
 <div id="quizScore" style="display:none">

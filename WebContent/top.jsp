@@ -11,4 +11,5 @@
 	<a href="nonsense.jsp"><img src="img/Q1.png" id="start" width="150px" height="50px" class="s1"></a>
     <a href="develop.jsp"><img src="img/Q2.png" id="start" width="150px" height="50px" class="s1"></a>
     <a href="ox.jsp"><img src="img/Q3.png" id="start" width="150px" height="50px" class="s2"></a>
+    <a href="history.jsp"><img src="img/history.png" id="start" width="150px" height="50px" class="s2"></a>
     </center>

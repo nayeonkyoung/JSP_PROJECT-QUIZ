@@ -85,7 +85,7 @@ color:#8d3049;
 </style>
 <script language="javascript">
 var delay=15; //시간설정
-var correctAnswers=new Array("눈감을새","초비상","고물장수","새우","화장실");  //정답
+var correctAnswers=new Array("유관순","임시정부","장영실","부자세습","시무28조");  //정답
 
 var q_num=1;
 var timer;
@@ -192,35 +192,35 @@ window.onload=show_question;
 <div id="answerBoard"> </div>
 <form name="x">
 <div id="question1" style="display:none">
-	<b>1. 새 중에 가장 빠른 새는?</b><br>
+	<b>1. 16세의 나이로 시위운동에 참여하여 만세를 부르고,<br> 아우내 장터에서 독립 만세를 주도한 사람은?</b><br>
 	<input type="text" size="30" name="a1" class="in">
 	<input type="button" value="확인" onclick="check_answer()" class="btn"><br>
 </div></form>
 
 <form name="x2">
 <div id="question2" style="display:none">
-<b>2. 전기가 나가면 집집마다 걸리는 비상은?</b><br>
+<b>2. 민족 지도자들이 독립 운동을 보다 효과적으로 펴기 위하여 중국 상하이에 세운 것은?</b><br>
 <input type="text" size="30" name="a2" class="in">
 	<input type="button" value="확인" onclick="check_answer2()" class="btn"><br>
 </div></form>
 
 <form name="x3">
 <div id="question3" style="display:none">
-<b>3. 병든 자여 내게로 오라고 외치는 사람은?</b><br>
+<b>3. 조선 전기 세종 때 활동하던 과학자로 우리나라 최조의 물시계인 자격루를 만들었고, <br>세계 최초로 측우기를 발명한 사람은?</b><br>
 <input type="text" size="30" name="a3" class="in">
 	<input type="button" value="확인" onclick="check_answer3()" class="btn"><br>
 </div></form>
 
 <form name="x4">
 <div id="question4" style="display:none">
-<b>4. 할버지도 꼽추이고 아빠도 꼽추이고 나도 꼽추이다.이것은 무엇일까?</b><br>
+<b>4. 우리나라 최초의 국가 고조선의 정치제도는?</b><br>
 <input type="text" size="30" name="a4" class="in" >
 	<input type="button" value="확인" onclick="check_answer4()" class="btn"><br>
 </div></form>
 
 <form name="x5">
 <div id="question5" style="display:none">
-<b>5. 매일같이 가서 두드려도 들어로라는 소리를 못 들어보는 곳은?</b><br>
+<b>5. 성종 때, 재상이었던 최승로가 임금께 올린 정치 개혁안은?</b><br>
 <input type="text" size="30" name="a5" class="in">
 	<input type="button" value="확인" onclick="check_answer5()" class="btn"><br>
 </div></form>

@@ -22,6 +22,8 @@ input[type=text] {
 .p1{
 text-decoration:none;
 color:#8d3049;
+background-color:white;
+padding:8px;
 }
 
 #quizScore{
@@ -49,7 +51,7 @@ color:#8d3049;
 }
 </style>
 <script language="javascript">
-var delay=20; //시간설정
+var delay=15; //시간설정
 var correctAnswers=new Array("a","b","b","b","a");  //정답
 
 var q_num=1;
@@ -109,33 +111,33 @@ window.onload=show_question;
 <div id="answerBoard"> </div>
 
 <div id="question1" style="display:none">
-	<b>1. 오이는 채소가 아니라 과일이다?</b><br>
-	<a href="javascript:void(0)" onclick="check_answer('a')"> ① O</a><br>
-	<a href="javascript:void(0)" onclick="check_answer('b')"> ② X</a><br>
+	<b>1. 오이는 채소가 아니라 과일이다?</b><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① O</a><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② X</a><br><br>
 </div>
 
 <div id="question2" style="display:none">
-	<b>2. 낙타의 혹 속에는 물이 들어있다?</b><br>
-	<a href="javascript:void(0)" onclick="check_answer('a')"> ① O</a><br>
-	<a href="javascript:void(0)" onclick="check_answer('b')"> ② X</a><br>
+	<b>2. 낙타의 혹 속에는 물이 들어있다?</b><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① O</a><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② X</a><br><br>
 </div>
 
 <div id="question3" style="display:none">
-	<b>3. 하루라도 책을 읽지 않으면 입에 가시가 돋힌다는 안중근의사의 말이다?</b><br>
-	<a href="javascript:void(0)" onclick="check_answer('a')"> ① O</a><br>
-	<a href="javascript:void(0)" onclick="check_answer('b')"> ② X</a><br>
+	<b>3. 하루라도 책을 읽지 않으면 입에 가시가 돋힌다는 안중근의사의 말이다?</b><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① O</a><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② X</a><br><br>
 </div>
 
 <div id="question4" style="display:none">
-	<b>4. 빵은 순수한 우리말이다?</b><br>
-	<a href="javascript:void(0)" onclick="check_answer('a')"> ① O</a><br>
-	<a href="javascript:void(0)" onclick="check_answer('b')"> ② X</a><br>
+	<b>4. 빵은 순수한 우리말이다?</b><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① O</a><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② X</a><br><br>
 </div>
 
 <div id="question5" style="display:none">
-	<b>5. 오징어와 게의 다리는 10개이고, 문어와 낙지는 8개이다?</b><br>
-	<a href="javascript:void(0)" onclick="check_answer('a')"> ① O</a><br>
-	<a href="javascript:void(0)" onclick="check_answer('b')"> ② X</a><br>
+	<b>5. 오징어와 게의 다리는 10개이고, 문어와 낙지는 8개이다?</b><br><br>	
+	<a href="javascript:void(0)" onclick="check_answer('a')" class="p1"> ① O</a><br><br>
+	<a href="javascript:void(0)" onclick="check_answer('b')" class="p1"> ② X</a><br><br>
 </div>
 
 <div id="quizScore" style="display:none">
